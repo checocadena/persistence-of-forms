@@ -1,0 +1,24 @@
+{
+  "name": "forms-decay",
+  "version": "1.0.0",
+  "description": "FORMS with a 10-day memory decay layer (art installation)",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/decay.test.mjs",
+    "soak": "node test/soak.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "three": "^0.159.0",
+    "tone": "^14.8.1"
+  },
+  "private": true,
+  "devDependencies": {
+    "playwright-core": "^1.44.1"
+  }
+}

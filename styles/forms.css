@@ -1,0 +1,30 @@
+body { 
+  margin: 0; 
+  overflow: hidden; 
+}
+canvas { 
+  display: block; 
+}
+.control-button {
+  position: fixed;
+  z-index: 100;
+  padding: 0.5rem 1rem;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 0.875rem;
+  transition: all 0.2s ease-in-out;
+  backdrop-filter: blur(10px);
+}
+.control-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+#fullscreenButton { top: 10px; left: 10px; }
+#showcaseButton { top: 10px; left: 120px; }
+#backButton { top: 10px; left: 270px; }
