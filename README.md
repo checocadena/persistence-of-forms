@@ -1,6 +1,6 @@
-# Degenerate Forms
+# Persistence of Forms
 
-*(working title: FORMS / decay)* In geometry, a degenerate form is one that has collapsed into something less, like a triangle flattened into a line.
+*(working title: FORMS / decay)* On an old screen, persistence is the glow a line leaves behind after it has moved on.
 
 FORMS (from checocadena.com, `public/Forms.html` + `public/js/forms/`) running as a
 gallery piece whose **memory** wears out over a 10-day exhibition. The shapes and

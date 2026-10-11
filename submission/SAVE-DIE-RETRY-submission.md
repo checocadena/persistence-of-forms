@@ -1,10 +1,10 @@
 # SAVE / DIE / RETRY — A Space Gallery: copy-paste answers
 
-Deadline **Oct 11, 2026, 11:59 pm EDT**. Show Oct 28 – Nov 6 (10 days). Sample 1 was formerly called FORMS / decay.
+Deadline **Oct 11, 2026, 11:59 pm EDT**. Show Oct 28 – Nov 6 (10 days). Sample 1 was formerly called FORMS / decay, then Degenerate Forms.
 
 The form has no proposal field, so the two work samples are what the jury picks from.
 
-- **Sample 1:** Degenerate Forms (made for this show)
+- **Sample 1:** Persistence of Forms (made for this show)
 - **Sample 2:** Immobile Phone
 - Spare: The Cyber Prophet (at the bottom)
 
@@ -31,15 +31,15 @@ You fill in: first name, last name (the Immobile Phone wall label reads "Checo C
 
 ---
 
-## Sample 1: Degenerate Forms
+## Sample 1: Persistence of Forms
 
-**File:** `degenerate-forms-day-1-6-10.jpg`
+**File:** `persistence-of-forms-day-1-6-10.jpg`
 
-**Link to Video:** upload `degenerate-forms-10-days.mp4` to YouTube or Vimeo (unlisted) and paste the link.
+**Link to Video:** upload `persistence-of-forms-10-days.mp4` to YouTube or Vimeo (unlisted) and paste the link.
 
 **Title**
 ```
-Degenerate Forms
+Persistence of Forms
 ```
 **Year**
 ```
@@ -53,13 +53,13 @@ Dimensions variable. Real-time generative video and stereo sound for one screen 
 ```
 Real-time generative software (JavaScript, Web Audio, HTML canvas), computer, screen or projector, stereo speakers
 ```
-**Work Statement** (178 words)
+**Work Statement** (176 words)
 ```
 Wireframe spheres, pyramids and cubes drift inside a slowly turning cube. Each time one hits a wall it flashes a colour and sings a note, tuned to a drone that moves through chords. A shape bounces a handful of times, fades away, and another takes its place: the system resets, over and over, exactly as designed.
 
 What it cannot reset is its memory. The piece starts its clock when the exhibition opens and runs for exactly the length of the show, ten days. Everything it plays feeds a six-second loop that it keeps listening back to, and each day that memory gets a little worse. Echoes return lower and duller, the picture snaps to a coarser grid, lines step and ghost, and its own rules erode: notes slip off key, and height stops meaning pitch.
 
-In geometry, a degenerate form is one that has collapsed into something less: a triangle flattened into a line. Refreshing the page doesn't heal it. A visitor who returns on another day meets the same shapes, the same bounces, and a different piece.
+On an old screen, persistence is the glow a line leaves behind after it has moved on. Refreshing the page doesn't heal it. A visitor who returns on another day meets the same shapes, the same bounces, and a different piece.
 ```
 
 ---
@@ -126,7 +126,7 @@ The Cyber Prophet hands the oldest structure in games, one run and one chance, t
 
 ---
 
-## If Degenerate Forms is accepted (install notes)
+## If Persistence of Forms is accepted (install notes)
 
 - Needs a computer running Chrome, a screen or projector, stereo speakers, and power for 10 days. Ask the gallery what they provide.
 - Opening day: load the page once with `?reset=1` and click to begin. Don't press Shift+R after that.
