@@ -1,11 +1,12 @@
 # SAVE / DIE / RETRY — A Space Gallery: copy-paste answers
 
-Deadline **Oct 11, 2026, 11:59 pm EDT**. Show Oct 28 – Nov 6 (10 days).
+Deadline **Oct 11, 2026, 11:59 pm EDT**. Show Oct 28 – Nov 6 (10 days). Sample 1 was formerly called FORMS / decay.
 
 The form has no proposal field, so the two work samples are what the jury picks from.
 
-- **Recommended:** Sample 1 = FORMS / decay (made for this show), Sample 2 = The Cyber Prophet or Immobile Phone.
-- **Two past works only:** Sample 1 = The Cyber Prophet, Sample 2 = Immobile Phone.
+- **Sample 1:** Degenerate Forms (made for this show)
+- **Sample 2:** Immobile Phone
+- Spare: The Cyber Prophet (at the bottom)
 
 ---
 
@@ -30,15 +31,15 @@ You fill in: first name, last name (the Immobile Phone wall label reads "Checo C
 
 ---
 
-## Work: FORMS / decay
+## Sample 1: Degenerate Forms
 
-**File:** `work-sample-1-forms-decay.jpg`
+**File:** `degenerate-forms-day-1-6-10.jpg`
 
-**Link to Video:** upload `work-sample-2-forms-decay-10-days.mp4` to YouTube or Vimeo (unlisted) and paste the link.
+**Link to Video:** upload `degenerate-forms-10-days.mp4` to YouTube or Vimeo (unlisted) and paste the link.
 
 **Title**
 ```
-FORMS / decay
+Degenerate Forms
 ```
 **Year**
 ```
@@ -52,18 +53,47 @@ Dimensions variable. Real-time generative video and stereo sound for one screen 
 ```
 Real-time generative software (JavaScript, Web Audio, HTML canvas), computer, screen or projector, stereo speakers
 ```
-**Work Statement** (189 words)
+**Work Statement** (178 words)
 ```
 Wireframe spheres, pyramids and cubes drift inside a slowly turning cube. Each time one hits a wall it flashes a colour and sings a note, tuned to a drone that moves through chords. A shape bounces a handful of times, fades away, and another takes its place: the system resets, over and over, exactly as designed.
 
-What it cannot reset is its memory. FORMS / decay starts its clock when the exhibition opens and runs for exactly the length of the show, ten days. Everything it plays feeds a six-second loop that it keeps listening back to, and each day that memory gets a little worse. Echoes return lower and duller, the picture snaps to a coarser grid, lines step and ghost, and shapes are drawn where they were rather than where they are. Slowly its own rules erode: notes slip off key, and height stops meaning pitch.
+What it cannot reset is its memory. The piece starts its clock when the exhibition opens and runs for exactly the length of the show, ten days. Everything it plays feeds a six-second loop that it keeps listening back to, and each day that memory gets a little worse. Echoes return lower and duller, the picture snaps to a coarser grid, lines step and ghost, and its own rules erode: notes slip off key, and height stops meaning pitch.
 
-Refreshing the page doesn't heal it. A visitor who comes back on another day meets the same shapes, the same bounces, and a different piece. By closing night it is still playing, still trying again, and no longer quite making sense.
+In geometry, a degenerate form is one that has collapsed into something less: a triangle flattened into a line. Refreshing the page doesn't heal it. A visitor who returns on another day meets the same shapes, the same bounces, and a different piece.
 ```
 
 ---
 
-## Work: The Cyber Prophet
+## Sample 2: Immobile Phone
+
+**File:** `immobile-phone.jpg`
+
+**Link to Video:** leave blank, or use an Instagram post of it if you have one.
+
+**Title**
+```
+Immobile Phone
+```
+**Year** (from the wall label)
+```
+2024
+```
+**Dimension:** you fill in: measure the concrete block (H × W × D).
+
+**Medium** (from the wall label)
+```
+Concrete and mobile phone
+```
+**Work Statement** (101 words)
+```
+A working iPhone, encased in concrete. The phone stays on and connected, running a live Instagram account that visitors can interact with, but it can no longer be picked up, pocketed or put down. Immobile Phone is an installation about smartphone dependency: the weight of constant digital presence, made literal.
+
+The device keeps an online self running, posting and reachable, while the object itself has become a block: a monument, or a grave marker, for the portable life it once promised. The account can go on without end; the body that carried the phone has to stay where it is.
+```
+
+---
+
+## Spare: The Cyber Prophet
 
 **File:** `cyber-prophet.jpg`
 
@@ -96,36 +126,7 @@ The Cyber Prophet hands the oldest structure in games, one run and one chance, t
 
 ---
 
-## Work: Immobile Phone
-
-**File:** `immobile-phone.jpg`
-
-**Link to Video:** leave blank, or use an Instagram post of it if you have one.
-
-**Title**
-```
-Immobile Phone
-```
-**Year** (from the wall label)
-```
-2024
-```
-**Dimension:** you fill in: measure the concrete block (H × W × D).
-
-**Medium** (from the wall label)
-```
-Concrete and mobile phone
-```
-**Work Statement** (101 words)
-```
-A working iPhone, encased in concrete. The phone stays on and connected, running a live Instagram account that visitors can interact with, but it can no longer be picked up, pocketed or put down. Immobile Phone is an installation about smartphone dependency: the weight of constant digital presence, made literal.
-
-The device keeps an online self running, posting and reachable, while the object itself has become a block: a monument, or a grave marker, for the portable life it once promised. The account can go on without end; the body that carried the phone has to stay where it is.
-```
-
----
-
-## If FORMS / decay is accepted (install notes)
+## If Degenerate Forms is accepted (install notes)
 
 - Needs a computer running Chrome, a screen or projector, stereo speakers, and power for 10 days. Ask the gallery what they provide.
 - Opening day: load the page once with `?reset=1` and click to begin. Don't press Shift+R after that.

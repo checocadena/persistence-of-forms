@@ -1,4 +1,6 @@
-# FORMS / decay
+# Degenerate Forms
+
+*(working title: FORMS / decay)* In geometry, a degenerate form is one that has collapsed into something less, like a triangle flattened into a line.
 
 FORMS (from checocadena.com, `public/Forms.html` + `public/js/forms/`) running as a
 gallery piece whose **memory** wears out over a 10-day exhibition. The shapes and
