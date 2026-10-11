@@ -53,13 +53,13 @@ Dimensions variable. Real-time generative video and stereo sound for one screen 
 ```
 Real-time generative software (JavaScript, Web Audio, HTML canvas), computer, screen or projector, stereo speakers
 ```
-**Work Statement** (176 words)
+**Work Statement** (193 words)
 ```
-Wireframe spheres, pyramids and cubes drift inside a slowly turning cube. Each time one hits a wall it flashes a colour and sings a note, tuned to a drone that moves through chords. A shape bounces a handful of times, fades away, and another takes its place: the system resets, over and over, exactly as designed.
+In Plato's theory of Forms, everything we see is an imperfect copy of a perfect, unchanging ideal, and art is a copy of a copy, one step further from the truth. Persistence of Forms puts that idea inside a machine.
 
-What it cannot reset is its memory. The piece starts its clock when the exhibition opens and runs for exactly the length of the show, ten days. Everything it plays feeds a six-second loop that it keeps listening back to, and each day that memory gets a little worse. Echoes return lower and duller, the picture snaps to a coarser grid, lines step and ghost, and its own rules erode: notes slip off key, and height stops meaning pitch.
+Ideal geometric shapes (spheres, tetrahedra and cubes) bounce inside a turning wireframe cube, each wall hit playing a note tuned to a soft drone. The system resets with every bounce, and the Forms themselves never change. What changes is the copy. Everything the piece plays and shows is fed back into its own six-second memory, so each moment is a copy of the last copy. Over the ten days of the show that memory wears out: echoes sink lower and duller, notes drift off key, lines break into stair-steps and ghosts, and shapes are drawn where they were rather than where they are.
 
-On an old screen, persistence is the glow a line leaves behind after it has moved on. Refreshing the page doesn't heal it. A visitor who returns on another day meets the same shapes, the same bounces, and a different piece.
+Games promise that a reset takes us back to the same moment. This piece suggests the opposite: the ideal can be restored endlessly, but every return is a copy, and every copy loses something. A visitor who comes back on another day meets the same shapes, and a different piece.
 ```
 
 ---
