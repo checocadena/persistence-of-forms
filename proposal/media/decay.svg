@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" font-family="-apple-system, system-ui, 'Helvetica Neue', Helvetica, sans-serif" font-size="13" fill="#e9e9e9">
+  <!-- How Persistence of Forms decays. Look taken from the piece itself: black, thin grey wireframe
+       lines, phosphor tints sampled from submission/day-1.png and day-10.png, the red ghost from
+       js/decay/scope.js (rgba(255,70,110)), CRT scanlines.
+       Numbers: damage curve from js/decay/clock.js (MAX_DAMAGE 0.92, CURVE 2.5, 10 days);
+       "in key" percentages, 240 mutations, 6 s loop, 2.5 semitones, 18 kHz to 500 Hz, 16 to 8 bits,
+       12 to 8 bits, 36 frames and 1.5 octaves from README.md (How it's built). -->
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ffffff" opacity="0.025"/></pattern>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#8d8d8d"/></marker>
+    <marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ff466e"/></marker>
+  </defs>
+  <rect width="1000" height="680" fill="#000"/>
+  <rect width="1000" height="680" fill="url(#scan)"/>
+  <rect x="0.5" y="0.5" width="999" height="679" fill="none" stroke="#3a3a3a"/>
+
+  <!-- 1. The clock -->
+  <text x="40" y="36" font-size="12" letter-spacing="2.4" fill="#8d8d8d">THE CLOCK · clock.js</text>
+  <text x="40" y="60" font-size="15">damage = 0.92 · t<tspan dy="-6" font-size="10">2.5</tspan><tspan dy="6" fill="#8d8d8d">, t = share of the 10 days gone</tspan></text>
+  <g stroke="#555" stroke-width="1">
+    <line x1="70" y1="290" x2="440" y2="290"/>
+    <line x1="70" y1="290" x2="70" y2="78"/>
+    <line x1="70" y1="78.4" x2="440" y2="78.4" stroke-dasharray="2 4" stroke="#3a3a3a"/>
+  </g>
+  <g font-size="11" fill="#8d8d8d" text-anchor="middle">
+    <text x="70" y="308">0</text><text x="144" y="308">2</text><text x="218" y="308">4</text><text x="292" y="308">6</text><text x="366" y="308">8</text><text x="440" y="308">10</text>
+    <text x="255" y="326" letter-spacing="2">DAYS</text>
+  </g>
+  <text x="62" y="82" font-size="11" fill="#8d8d8d" text-anchor="end">0.92</text>
+  <text x="62" y="294" font-size="11" fill="#8d8d8d" text-anchor="end">0</text>
+  <path filter="url(#glow)" fill="none" stroke="#e89fe8" stroke-width="2.4" d="M70.0,290.0 L77.4,290.0 L84.8,289.9 L92.2,289.8 L99.6,289.6 L107.0,289.3 L114.4,288.9 L121.8,288.4 L129.2,287.8 L136.6,287.1 L144.0,286.2 L151.4,285.2 L158.8,284.0 L166.2,282.7 L173.6,281.2 L181.0,279.6 L188.4,277.7 L195.8,275.7 L203.2,273.5 L210.6,271.2 L218.0,268.6 L225.4,265.8 L232.8,262.8 L240.2,259.6 L247.6,256.2 L255.0,252.6 L262.4,248.7 L269.8,244.7 L277.2,240.3 L284.6,235.8 L292.0,231.0 L299.4,226.0 L306.8,220.7 L314.2,215.1 L321.6,209.3 L329.0,203.3 L336.4,196.9 L343.8,190.3 L351.2,183.5 L358.6,176.3 L366.0,168.9 L373.4,161.2 L380.8,153.2 L388.2,144.9 L395.6,136.3 L403.0,127.4 L410.4,118.2 L417.8,108.7 L425.2,98.9 L432.6,88.8 L440.0,78.4"/>
+  <g fill="#d3e5cb">
+    <circle cx="144" cy="286.2" r="4"/><circle cx="255" cy="252.6" r="4"/><circle cx="329" cy="203.3" r="4"/><circle cx="440" cy="78.4" r="4"/>
+  </g>
+  <g font-size="12" fill="#d3e5cb">
+    <text x="136" y="270">99%</text><text x="236" y="236">88%</text><text x="300" y="190">65%</text><text x="400" y="104">42%</text>
+  </g>
+  <text x="90" y="112" font-size="11" fill="#d3e5cb">● notes in key, averaged over seeds</text>
+  <text x="90" y="128" font-size="11" fill="#8d8d8d">never silent, never blank: 0.92 is the floor</text>
+
+  <!-- clock drives three channels -->
+  <g stroke="#8d8d8d" stroke-width="1.3" fill="none">
+    <line x1="452" y1="182" x2="484" y2="182"/>
+    <line x1="484" y1="82" x2="484" y2="282"/>
+    <line x1="484" y1="82" x2="510" y2="82" marker-end="url(#a)"/>
+    <line x1="484" y1="182" x2="510" y2="182" marker-end="url(#a)"/>
+    <line x1="484" y1="282" x2="510" y2="282" marker-end="url(#a)"/>
+  </g>
+  <g fill="#050505" stroke="#8d8d8d" stroke-width="1.2">
+    <rect x="514" y="40" width="450" height="84"/>
+    <rect x="514" y="140" width="450" height="84"/>
+    <rect x="514" y="240" width="450" height="84"/>
+  </g>
+  <g font-size="12" letter-spacing="2.2">
+    <text x="532" y="66" fill="#c9d8f5">SOUND · voice.js</text>
+    <text x="532" y="166" fill="#e89fe8">PICTURE · scope.js</text>
+    <text x="532" y="266" fill="#d3e5cb">RULES · rules.js</text>
+  </g>
+  <g font-size="13" fill="#bdbdbd">
+    <text x="532" y="88">The engine sags late in the run: pitch falls, down to</text>
+    <text x="532" y="106">1.5 octaves at the floor, with a slow tape-like wobble.</text>
+    <text x="532" y="188">Vertices snap to a coarser grid (12 to 8 bits), edges turn</text>
+    <text x="532" y="206">to stair-steps, a red ghost drifts out of convergence.</text>
+    <text x="532" y="288">240 seeded mutations, about one per exhibition hour,</text>
+    <text x="532" y="306">most of them late: slots swap, notes drift off key.</text>
+  </g>
+
+  <line x1="40" y1="362" x2="960" y2="362" stroke="#2a2a2a"/>
+
+  <!-- 2. The memory loop -->
+  <text x="40" y="398" font-size="12" letter-spacing="2.4" fill="#8d8d8d">THE MEMORY LOOP · memory-worklet.js, audio-memory.js</text>
+  <g fill="#050505" stroke="#8d8d8d" stroke-width="1.2">
+    <rect x="40" y="425" width="160" height="60"/>
+    <rect x="600" y="425" width="160" height="60"/>
+    <rect x="800" y="425" width="160" height="60"/>
+    <rect x="390" y="535" width="200" height="66"/>
+    <rect x="160" y="535" width="200" height="66" stroke="#ff466e"/>
+  </g>
+  <circle cx="270" cy="455" r="20" fill="#050505" stroke="#e9e9e9" stroke-width="1.4"/>
+  <text x="270" y="461" font-size="20" text-anchor="middle">+</text>
+  <g font-size="13" text-anchor="middle">
+    <text x="120" y="451">live sound</text>
+    <text x="120" y="470" font-size="11" fill="#8d8d8d">chimes and drone</text>
+    <text x="680" y="460">limiter</text>
+    <text x="880" y="460">speakers</text>
+    <text x="490" y="561">degrade</text>
+    <text x="490" y="580" font-size="11" fill="#8d8d8d">16 to 8 bits, dithered;</text>
+    <text x="490" y="594" font-size="11" fill="#8d8d8d">moments fade out</text>
+    <text x="260" y="561">6 s stereo memory</text>
+    <text x="260" y="582" font-size="11" fill="#8d8d8d">each moment, a copy</text>
+  </g>
+  <g stroke="#8d8d8d" stroke-width="1.3" fill="none">
+    <line x1="200" y1="455" x2="246" y2="455" marker-end="url(#a)"/>
+    <line x1="290" y1="455" x2="596" y2="455" marker-end="url(#a)"/>
+    <line x1="760" y1="455" x2="796" y2="455" marker-end="url(#a)"/>
+    <path d="M490 455 L490 531" marker-end="url(#a)"/>
+    <line x1="390" y1="568" x2="364" y2="568" marker-end="url(#a)"/>
+  </g>
+  <circle cx="490" cy="455" r="3.5" fill="#8d8d8d"/>
+  <path d="M260 535 L260 479" fill="none" stroke="#ff466e" stroke-width="1.6" marker-end="url(#p)" filter="url(#glow)"/>
+  <text x="248" y="506" font-size="11" fill="#ff466e" text-anchor="end">recall: each lap up to 2.5 semitones lower,</text>
+  <text x="248" y="522" font-size="11" fill="#ff466e" text-anchor="end">lowpass closing from 18 kHz to 500 Hz</text>
+  <text x="620" y="566" font-size="12" fill="#bdbdbd">out = live + feedback · recall(memory)</text>
+  <text x="620" y="586" font-size="12" fill="#bdbdbd">memory = degrade(out)</text>
+  <text x="40" y="646" font-size="12" fill="#8d8d8d">The live sound always passes clean. Only what comes back from memory is worn. On screen, memory draws each shape</text>
+  <text x="40" y="664" font-size="12" fill="#8d8d8d">up to 36 frames behind where it really is, so the picture drifts out of sync with its own bounces.</text>
+</svg>

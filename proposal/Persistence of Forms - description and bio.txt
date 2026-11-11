@@ -1,0 +1,30 @@
+PERSISTENCE OF FORMS
+Checo Cadena, 2026
+Real-time generative video and stereo sound · github.com/checocadena/persistence-of-forms
+Video (91 s, ten exhibition days compressed): submission/persistence-of-forms-10-days.mp4 in the repository
+
+
+DESCRIPTION (one paragraph)
+
+Persistence of Forms is a real-time generative piece of video and stereo sound for one screen or projection. Spheres, tetrahedra and cubes bounce inside a turning wireframe cube, drawn like an old phosphor screen, and every bounce plays a chime tuned to a soft drone. The shapes never change. What wears out is the piece's memory: everything it plays is fed back through a six-second loop, and a clock that runs for the ten days of a show sets how worn that loop is. The first days are nearly clean. By the end, echoes sink lower and duller, notes drift off key, lines break into stair-steps and red ghosts, and shapes are drawn where they were rather than where they are. The clock is kept on the computer, so a refresh does not heal the piece, and a visitor who comes back on another day meets the same shapes and a different piece. It is built on FORMS, an earlier piece by Checo Cadena from checocadena.com. The software runs and has been tested in compressed runs; the repository records no public showing yet.
+
+
+SHORT BIO
+
+Checo Cadena is a New York-based singer-songwriter, sound artist and creative technologist from Monterrey, Mexico, who writes and produces records and builds the machines around them: plugins, robots, installations and software. Since 2023 Cadena has been Computer Control Engineer at Amorphic Robot Works, Chico MacMurtrie's robotic sculpture studio. Cadena holds a B.S. in Integrated Design and Media from NYU Tandon and an M.A. in Creative Media and Technology from Berklee NYC.
+
+Contact: Checo Cadena · github.com/checocadena · checocadena.com
+
+
+STILL OPEN
+
+- Exhibition history: the repository records no showing of the piece.
+- SAVE / DIE / RETRY (A Space Gallery): the repository holds the prepared application answers (deadline 11 October 2026) and install notes "if accepted". It does not record that the application was sent or its outcome. The kit says only that the piece was prepared as a work sample for the call.
+- No full ten-day run in real time is recorded, and no results of the 20-minute memory soak (npm run soak) are committed. The 11 unit tests pass (npm test, run 11 November 2026).
+- Dimensions are "variable" (as in the application). Preferred screen or projection size, room and listening level are not set.
+- Minimum computer spec, and what a venue would need to provide.
+- Edition, price or availability, and how the work is delivered to a collector or venue.
+- No public video link yet: the 91-second video is only in the repository (submission/).
+- The repository has no license file. The kit says so and claims none.
+- Images are frames already in the repository: day 1 and day 10 at 1920 x 1080, and the day 1, 6, 10 strip at 3288 x 1170. No photos of the piece installed in a room exist yet.
+- Year 2026 is taken from the application. Check it.

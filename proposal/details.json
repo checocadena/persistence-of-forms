@@ -1,0 +1,17 @@
+{
+  "title": "Persistence of Forms",
+  "pdf": "Persistence-of-Forms-press-kit.pdf",
+  "stills": [
+    {"src": "../submission/day-1.png", "note": "Day 1 frame, 1920x1080, kept at source size"},
+    {"src": "../submission/day-10.png", "note": "Day 10 frame, 1920x1080, kept at source size"},
+    {"src": "../submission/persistence-of-forms-day-1-6-10.jpg", "note": "Day 1, 6 and 10 strip, 3288x1170, copied unchanged"}
+  ],
+  "fields": {
+    "ARTIST": "Checo Cadena",
+    "YEAR": "2026",
+    "CONTACT": "github.com/checocadena",
+    "WEBSITE": "checocadena.com",
+    "REPO_URL": "github.com/checocadena/persistence-of-forms",
+    "CHECKED": "11 November 2026"
+  }
+}
