@@ -19,7 +19,7 @@ Contact: Checo Cadena · github.com/checocadena · checocadena.com
 STILL OPEN
 
 - Exhibition history: the repository records no showing of the piece.
-- SAVE / DIE / RETRY (A Space Gallery): the repository holds the prepared application answers (deadline 11 October 2026) and install notes "if accepted". It does not record that the application was sent or its outcome. The kit says only that the piece was prepared as a work sample for the call.
+- SAVE / DIE / RETRY (A Space Gallery): submitted, not selected (confirmed by Checo, 11 November 2026). The kit says so.
 - No full ten-day run in real time is recorded, and no results of the 20-minute memory soak (npm run soak) are committed. The 11 unit tests pass (npm test, run 11 November 2026).
 - Dimensions are "variable" (as in the application). Preferred screen or projection size, room and listening level are not set.
 - Minimum computer spec, and what a venue would need to provide.
